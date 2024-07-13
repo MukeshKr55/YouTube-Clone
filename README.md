@@ -15,43 +15,42 @@ A YouTube clone built with React and TypeScript, utilizing modern web technologi
 - Search functionality with full-width search bar toggle
 
 ## Folder Structure
-├── src/
-│   ├── assets/
-│   │   └── youtube_logo.png
-│   ├── components/
-│   │   ├── Button.tsx
-│   │   ├── CategoryPills.tsx
-│   │   └── VideoItem.tsx
-│   ├── context/
-│   │   └── SidebarContext.tsx
-│   ├── data/
-│   │   ├── home.ts
-│   │   └── sidebar.ts
-│   ├── layouts/
-│   │   ├── PageHeader.tsx
-│   │   └── Sidebar.tsx
-│   ├── utils/
-│   │   ├── formatDuration.ts
-│   │   └── formatTimeAgo.ts
-│   ├── App.tsx
-│   ├── index.css
-│   └── index.tsx
+src/
+|-- assets/
+| |-- youtube_logo.png
+|-- components/
+| |-- Button.tsx
+| |-- CategoryPills.tsx
+| |-- VideoItem.tsx
+|-- context/
+| |-- SidebarContext.tsx
+|-- data/
+| |-- home.ts
+| |-- sidebar.ts
+|-- layouts/
+| |-- PageHeader.tsx
+| |-- Sidebar.tsx
+|-- utils/
+| |-- formatDuration.ts
+| |-- formatTimeAgo.ts
+|-- App.tsx
+|-- index.css
+|-- index.tsx
 
 
 ## Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/youtube-clone.git
-   cd youtube-clone
-   ```
+   cd youtube-clone ```
 2. Install dependencies:
    ```bash
-   npm install
- ```
+   npm install```
+   
 3. Run the development server:
-      ```bash
-   npm run dev
- ```
+   ```bash
+   npm run dev ```
+
 
 ## Components
 
