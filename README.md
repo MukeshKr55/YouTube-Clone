@@ -7,6 +7,7 @@ A YouTube clone built with React and TypeScript, utilizing modern web technologi
 - [Folder Structure](#folder-structure)
 - [Installation](#installation)
 - [Components](#components)
+- [Screenshot](#screenshot)
 
 ## Features
 - Display categories and videos dynamically
@@ -15,6 +16,7 @@ A YouTube clone built with React and TypeScript, utilizing modern web technologi
 - Search functionality with full-width search bar toggle
 
 ## Folder Structure
+```plaintext
 src/
 |-- assets/
 | |-- youtube_logo.png
@@ -36,7 +38,7 @@ src/
 |-- App.tsx
 |-- index.css
 |-- index.tsx
-
+ ```
 
 ## Installation
 1. Clone the repository:
@@ -74,3 +76,6 @@ The sidebar component that includes links to various sections like Home, Subscri
 
 ### SidebarContext.tsx
 A context provider for managing the sidebar's open/close state across the application.
+
+## Screenshot
+![YouTube-clone](https://github.com/user-attachments/assets/eb8fbc23-4c24-4d90-a8e0-75fb8dbe053e)
